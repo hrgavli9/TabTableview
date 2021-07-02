@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		9E196FD7268E0A76005AF9DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E196FD6268E0A76005AF9DD /* AppDelegate.swift */; };
 		9E196FD9268E0A76005AF9DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E196FD8268E0A76005AF9DD /* SceneDelegate.swift */; };
-		9E196FDB268E0A76005AF9DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E196FDA268E0A76005AF9DD /* ViewController.swift */; };
 		9E196FDE268E0A76005AF9DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E196FDC268E0A76005AF9DD /* Main.storyboard */; };
 		9E196FE0268E0A76005AF9DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E196FDF268E0A76005AF9DD /* Assets.xcassets */; };
 		9E196FE3268E0A76005AF9DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E196FE1268E0A76005AF9DD /* LaunchScreen.storyboard */; };
 		9E196FEE268E0A77005AF9DD /* TabTableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E196FED268E0A77005AF9DD /* TabTableviewTests.swift */; };
 		9E196FF9268E0A77005AF9DD /* TabTableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E196FF8268E0A77005AF9DD /* TabTableviewUITests.swift */; };
+		9E19700E268E0C7A005AF9DD /* SimpleTabTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19700D268E0C7A005AF9DD /* SimpleTabTableViewVC.swift */; };
+		9E197013268E0CA4005AF9DD /* CustomTabTableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E197012268E0CA4005AF9DD /* CustomTabTableViewVC.swift */; };
+		9E197018268E0CD9005AF9DD /* SearchTabTAbleViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E197017268E0CD9005AF9DD /* SearchTabTAbleViewVC.swift */; };
+		9E955DC9268E142800BEB40B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E955DC8268E142800BEB40B /* Extension.swift */; };
+		9EC55D60268EFE5100E5A3E1 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC55D5F268EFE5100E5A3E1 /* CityCell.swift */; };
+		9EC55D65268F39AC00E5A3E1 /* Citycell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC55D64268F39AC00E5A3E1 /* Citycell1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		9E196FD3268E0A76005AF9DD /* TabTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E196FD6268E0A76005AF9DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E196FD8268E0A76005AF9DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E196FDA268E0A76005AF9DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E196FDD268E0A76005AF9DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E196FDF268E0A76005AF9DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E196FE2268E0A76005AF9DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		9E196FF4268E0A77005AF9DD /* TabTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E196FF8268E0A77005AF9DD /* TabTableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTableviewUITests.swift; sourceTree = "<group>"; };
 		9E196FFA268E0A77005AF9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E19700D268E0C7A005AF9DD /* SimpleTabTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabTableViewVC.swift; sourceTree = "<group>"; };
+		9E197012268E0CA4005AF9DD /* CustomTabTableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabTableViewVC.swift; sourceTree = "<group>"; };
+		9E197017268E0CD9005AF9DD /* SearchTabTAbleViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabTAbleViewVC.swift; sourceTree = "<group>"; };
+		9E955DC8268E142800BEB40B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9EC55D5F268EFE5100E5A3E1 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		9EC55D64268F39AC00E5A3E1 /* Citycell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citycell1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,16 @@
 		9E196FD5268E0A76005AF9DD /* TabTableview */ = {
 			isa = PBXGroup;
 			children = (
-				9E196FD6268E0A76005AF9DD /* AppDelegate.swift */,
-				9E196FD8268E0A76005AF9DD /* SceneDelegate.swift */,
-				9E196FDA268E0A76005AF9DD /* ViewController.swift */,
 				9E196FDC268E0A76005AF9DD /* Main.storyboard */,
+				9E19700D268E0C7A005AF9DD /* SimpleTabTableViewVC.swift */,
+				9E197012268E0CA4005AF9DD /* CustomTabTableViewVC.swift */,
+				9EC55D5F268EFE5100E5A3E1 /* CityCell.swift */,
+				9E197017268E0CD9005AF9DD /* SearchTabTAbleViewVC.swift */,
+				9EC55D64268F39AC00E5A3E1 /* Citycell1.swift */,
 				9E196FDF268E0A76005AF9DD /* Assets.xcassets */,
-				9E196FE1268E0A76005AF9DD /* LaunchScreen.storyboard */,
 				9E196FE4268E0A76005AF9DD /* Info.plist */,
+				9E955DC8268E142800BEB40B /* Extension.swift */,
+				9E197009268E0AAF005AF9DD /* Extra */,
 			);
 			path = TabTableview;
 			sourceTree = "<group>";
@@ -126,6 +139,16 @@
 				9E196FFA268E0A77005AF9DD /* Info.plist */,
 			);
 			path = TabTableviewUITests;
+			sourceTree = "<group>";
+		};
+		9E197009268E0AAF005AF9DD /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				9E196FD6268E0A76005AF9DD /* AppDelegate.swift */,
+				9E196FE1268E0A76005AF9DD /* LaunchScreen.storyboard */,
+				9E196FD8268E0A76005AF9DD /* SceneDelegate.swift */,
+			);
+			path = Extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E196FDB268E0A76005AF9DD /* ViewController.swift in Sources */,
 				9E196FD7268E0A76005AF9DD /* AppDelegate.swift in Sources */,
 				9E196FD9268E0A76005AF9DD /* SceneDelegate.swift in Sources */,
+				9E19700E268E0C7A005AF9DD /* SimpleTabTableViewVC.swift in Sources */,
+				9E955DC9268E142800BEB40B /* Extension.swift in Sources */,
+				9EC55D65268F39AC00E5A3E1 /* Citycell1.swift in Sources */,
+				9E197018268E0CD9005AF9DD /* SearchTabTAbleViewVC.swift in Sources */,
+				9EC55D60268EFE5100E5A3E1 /* CityCell.swift in Sources */,
+				9E197013268E0CA4005AF9DD /* CustomTabTableViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
